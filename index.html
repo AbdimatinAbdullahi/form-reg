@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <title>Registration form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-inside">
+            <div class="box">
+                <h1 class="content">Learn to code by <br> watching others</h1>
+                <p>see how experienced developers solve problems in real-time . <br> Watching Scripted tutorials is great but understanding how <br> developers think is invaluable</p>
+            </div>
+
+            <div class="form">
+                <div class="box1">
+                    <span class="bold">Try it free 7 days</span> <span>Then &20 A month</span>
+                    
+                </div>
+
+                <div class="form-registration">
+                    <form class="forming">
+                        <div id="Message" style="color: green; text-align: center; margin-bottom: 30px; "></div>
+
+                        <input type="text" name="fname" id="name" placeholder="First Name"> <br>
+                        <span id="nameError" class="error-message"></span>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name"> <br>
+                        <input type="email"  id="email" placeholder="Email Address"> <br>
+                        <span id="emailError" class="error-message"></span>
+                        <input type="password" id="password" placeholder="Password"> <br>
+                        <button type="submit" class="btn" onclick="submitForm()">CLAIM YOUR FREE TRIAL</button>
+                                
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
